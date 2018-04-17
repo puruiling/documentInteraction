@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57976A3820858C2000A247D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57976A3720858C2000A247D5 /* AppDelegate.m */; };
+		57976A3B20858C2000A247D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57976A3A20858C2000A247D5 /* ViewController.m */; };
+		57976A3E20858C2000A247D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57976A3C20858C2000A247D5 /* Main.storyboard */; };
+		57976A4020858C2000A247D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57976A3F20858C2000A247D5 /* Assets.xcassets */; };
+		57976A4320858C2000A247D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57976A4120858C2000A247D5 /* LaunchScreen.storyboard */; };
+		57976A4620858C2000A247D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57976A4520858C2000A247D5 /* main.m */; };
+		57976A5020858C2000A247D5 /* UIDocumentInteractionControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57976A4F20858C2000A247D5 /* UIDocumentInteractionControllerTests.m */; };
+		57976A5B20858C2000A247D5 /* UIDocumentInteractionControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57976A5A20858C2000A247D5 /* UIDocumentInteractionControllerUITests.m */; };
+		57976A6E208591F400A247D5 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57976A6D208591F400A247D5 /* QuickLook.framework */; };
+		57976A7020859F7500A247D5 /* 123.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 57976A6F20859F7500A247D5 /* 123.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57976A4C20858C2000A247D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57976A2B20858C2000A247D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57976A3220858C2000A247D5;
+			remoteInfo = UIDocumentInteractionController;
+		};
+		57976A5720858C2000A247D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57976A2B20858C2000A247D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57976A3220858C2000A247D5;
+			remoteInfo = UIDocumentInteractionController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57976A3320858C2000A247D5 /* UIDocumentInteractionController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIDocumentInteractionController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57976A3620858C2000A247D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		57976A3720858C2000A247D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		57976A3920858C2000A247D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		57976A3A20858C2000A247D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		57976A3D20858C2000A247D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57976A3F20858C2000A247D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57976A4220858C2000A247D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57976A4420858C2000A247D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57976A4520858C2000A247D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57976A4B20858C2000A247D5 /* UIDocumentInteractionControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIDocumentInteractionControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57976A4F20858C2000A247D5 /* UIDocumentInteractionControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIDocumentInteractionControllerTests.m; sourceTree = "<group>"; };
+		57976A5120858C2000A247D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57976A5620858C2000A247D5 /* UIDocumentInteractionControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIDocumentInteractionControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57976A5A20858C2000A247D5 /* UIDocumentInteractionControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIDocumentInteractionControllerUITests.m; sourceTree = "<group>"; };
+		57976A5C20858C2000A247D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57976A6D208591F400A247D5 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		57976A6F20859F7500A247D5 /* 123.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 123.pdf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57976A3020858C2000A247D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57976A6E208591F400A247D5 /* QuickLook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57976A4820858C2000A247D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57976A5320858C2000A247D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57976A2A20858C2000A247D5 = {
+			isa = PBXGroup;
+			children = (
+				57976A3520858C2000A247D5 /* UIDocumentInteractionController */,
+				57976A4E20858C2000A247D5 /* UIDocumentInteractionControllerTests */,
+				57976A5920858C2000A247D5 /* UIDocumentInteractionControllerUITests */,
+				57976A3420858C2000A247D5 /* Products */,
+				57976A6C208591F400A247D5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		57976A3420858C2000A247D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57976A3320858C2000A247D5 /* UIDocumentInteractionController.app */,
+				57976A4B20858C2000A247D5 /* UIDocumentInteractionControllerTests.xctest */,
+				57976A5620858C2000A247D5 /* UIDocumentInteractionControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57976A3520858C2000A247D5 /* UIDocumentInteractionController */ = {
+			isa = PBXGroup;
+			children = (
+				57976A6F20859F7500A247D5 /* 123.pdf */,
+				57976A3620858C2000A247D5 /* AppDelegate.h */,
+				57976A3720858C2000A247D5 /* AppDelegate.m */,
+				57976A3920858C2000A247D5 /* ViewController.h */,
+				57976A3A20858C2000A247D5 /* ViewController.m */,
+				57976A3C20858C2000A247D5 /* Main.storyboard */,
+				57976A3F20858C2000A247D5 /* Assets.xcassets */,
+				57976A4120858C2000A247D5 /* LaunchScreen.storyboard */,
+				57976A4420858C2000A247D5 /* Info.plist */,
+				57976A4520858C2000A247D5 /* main.m */,
+			);
+			path = UIDocumentInteractionController;
+			sourceTree = "<group>";
+		};
+		57976A4E20858C2000A247D5 /* UIDocumentInteractionControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				57976A4F20858C2000A247D5 /* UIDocumentInteractionControllerTests.m */,
+				57976A5120858C2000A247D5 /* Info.plist */,
+			);
+			path = UIDocumentInteractionControllerTests;
+			sourceTree = "<group>";
+		};
+		57976A5920858C2000A247D5 /* UIDocumentInteractionControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57976A5A20858C2000A247D5 /* UIDocumentInteractionControllerUITests.m */,
+				57976A5C20858C2000A247D5 /* Info.plist */,
+			);
+			path = UIDocumentInteractionControllerUITests;
+			sourceTree = "<group>";
+		};
+		57976A6C208591F400A247D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57976A6D208591F400A247D5 /* QuickLook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57976A3220858C2000A247D5 /* UIDocumentInteractionController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57976A5F20858C2000A247D5 /* Build configuration list for PBXNativeTarget "UIDocumentInteractionController" */;
+			buildPhases = (
+				57976A2F20858C2000A247D5 /* Sources */,
+				57976A3020858C2000A247D5 /* Frameworks */,
+				57976A3120858C2000A247D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIDocumentInteractionController;
+			productName = UIDocumentInteractionController;
+			productReference = 57976A3320858C2000A247D5 /* UIDocumentInteractionController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57976A4A20858C2000A247D5 /* UIDocumentInteractionControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57976A6220858C2000A247D5 /* Build configuration list for PBXNativeTarget "UIDocumentInteractionControllerTests" */;
+			buildPhases = (
+				57976A4720858C2000A247D5 /* Sources */,
+				57976A4820858C2000A247D5 /* Frameworks */,
+				57976A4920858C2000A247D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57976A4D20858C2000A247D5 /* PBXTargetDependency */,
+			);
+			name = UIDocumentInteractionControllerTests;
+			productName = UIDocumentInteractionControllerTests;
+			productReference = 57976A4B20858C2000A247D5 /* UIDocumentInteractionControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		57976A5520858C2000A247D5 /* UIDocumentInteractionControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57976A6520858C2000A247D5 /* Build configuration list for PBXNativeTarget "UIDocumentInteractionControllerUITests" */;
+			buildPhases = (
+				57976A5220858C2000A247D5 /* Sources */,
+				57976A5320858C2000A247D5 /* Frameworks */,
+				57976A5420858C2000A247D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57976A5820858C2000A247D5 /* PBXTargetDependency */,
+			);
+			name = UIDocumentInteractionControllerUITests;
+			productName = UIDocumentInteractionControllerUITests;
+			productReference = 57976A5620858C2000A247D5 /* UIDocumentInteractionControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57976A2B20858C2000A247D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = prl;
+				TargetAttributes = {
+					57976A3220858C2000A247D5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					57976A4A20858C2000A247D5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 57976A3220858C2000A247D5;
+					};
+					57976A5520858C2000A247D5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 57976A3220858C2000A247D5;
+					};
+				};
+			};
+			buildConfigurationList = 57976A2E20858C2000A247D5 /* Build configuration list for PBXProject "UIDocumentInteractionController" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57976A2A20858C2000A247D5;
+			productRefGroup = 57976A3420858C2000A247D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57976A3220858C2000A247D5 /* UIDocumentInteractionController */,
+				57976A4A20858C2000A247D5 /* UIDocumentInteractionControllerTests */,
+				57976A5520858C2000A247D5 /* UIDocumentInteractionControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57976A3120858C2000A247D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57976A4320858C2000A247D5 /* LaunchScreen.storyboard in Resources */,
+				57976A7020859F7500A247D5 /* 123.pdf in Resources */,
+				57976A4020858C2000A247D5 /* Assets.xcassets in Resources */,
+				57976A3E20858C2000A247D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57976A4920858C2000A247D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57976A5420858C2000A247D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57976A2F20858C2000A247D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57976A3B20858C2000A247D5 /* ViewController.m in Sources */,
+				57976A4620858C2000A247D5 /* main.m in Sources */,
+				57976A3820858C2000A247D5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57976A4720858C2000A247D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57976A5020858C2000A247D5 /* UIDocumentInteractionControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57976A5220858C2000A247D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57976A5B20858C2000A247D5 /* UIDocumentInteractionControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57976A4D20858C2000A247D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57976A3220858C2000A247D5 /* UIDocumentInteractionController */;
+			targetProxy = 57976A4C20858C2000A247D5 /* PBXContainerItemProxy */;
+		};
+		57976A5820858C2000A247D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57976A3220858C2000A247D5 /* UIDocumentInteractionController */;
+			targetProxy = 57976A5720858C2000A247D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57976A3C20858C2000A247D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57976A3D20858C2000A247D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57976A4120858C2000A247D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57976A4220858C2000A247D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57976A5D20858C2000A247D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		57976A5E20858C2000A247D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57976A6020858C2000A247D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EX6E733GC4;
+				INFOPLIST_FILE = UIDocumentInteractionController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.puruiling.UIDocumentInteractionController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57976A6120858C2000A247D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EX6E733GC4;
+				INFOPLIST_FILE = UIDocumentInteractionController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.puruiling.UIDocumentInteractionController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		57976A6320858C2000A247D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EX6E733GC4;
+				INFOPLIST_FILE = UIDocumentInteractionControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.puruiling.UIDocumentInteractionControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIDocumentInteractionController.app/UIDocumentInteractionController";
+			};
+			name = Debug;
+		};
+		57976A6420858C2000A247D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EX6E733GC4;
+				INFOPLIST_FILE = UIDocumentInteractionControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.puruiling.UIDocumentInteractionControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIDocumentInteractionController.app/UIDocumentInteractionController";
+			};
+			name = Release;
+		};
+		57976A6620858C2000A247D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EX6E733GC4;
+				INFOPLIST_FILE = UIDocumentInteractionControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.puruiling.UIDocumentInteractionControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UIDocumentInteractionController;
+			};
+			name = Debug;
+		};
+		57976A6720858C2000A247D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EX6E733GC4;
+				INFOPLIST_FILE = UIDocumentInteractionControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.puruiling.UIDocumentInteractionControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UIDocumentInteractionController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57976A2E20858C2000A247D5 /* Build configuration list for PBXProject "UIDocumentInteractionController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57976A5D20858C2000A247D5 /* Debug */,
+				57976A5E20858C2000A247D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57976A5F20858C2000A247D5 /* Build configuration list for PBXNativeTarget "UIDocumentInteractionController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57976A6020858C2000A247D5 /* Debug */,
+				57976A6120858C2000A247D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57976A6220858C2000A247D5 /* Build configuration list for PBXNativeTarget "UIDocumentInteractionControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57976A6320858C2000A247D5 /* Debug */,
+				57976A6420858C2000A247D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57976A6520858C2000A247D5 /* Build configuration list for PBXNativeTarget "UIDocumentInteractionControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57976A6620858C2000A247D5 /* Debug */,
+				57976A6720858C2000A247D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57976A2B20858C2000A247D5 /* Project object */;
+}
